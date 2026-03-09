@@ -1,0 +1,14 @@
+import java.io.*;
+class L5P3{
+     public static void main(String...args) throws IOException{
+     File f= new File("Epson.java");
+
+     if(f.exists()){
+            System.out.println("yes this file exists");
+   }else{
+          f.createNewFile();
+           System.out.println("File Exists: "+f.exists());
+  }
+
+}
+ }
